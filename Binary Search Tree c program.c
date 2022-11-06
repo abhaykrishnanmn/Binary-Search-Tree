@@ -1,5 +1,5 @@
-# include <stdio.h>
-# include <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 typedef struct BST
 {
@@ -151,6 +151,10 @@ void main()
                }
 
             break;
+		   
+    default :
+		   printf("\nInvalid Input !!! ");
+		   
     }
  }while(choice!=4);
 }
